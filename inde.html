@@ -1,20 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!--=============== link-CSS ===============-->
+    <!--=============== link-CSS ===============-->
     <link rel="stylesheet" href="Assets/CSS/style.css">
-     <!--=============== bootstrap ===============-->
+    <!--=============== box-icon ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--=============== bootstrap ===============-->
     <link rel="stylesheet" href="Assets/node_modules/bootstrap/dist/css/bootstrap-reboot.min.css">
     <title>Document</title>
 </head>
-<body>
-    <nav>
 
-    </nav>
+<body>
+    <!--=============== header ===============-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+    </header>
+    <!--=============== home ===============-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>
+                Hello, I`am
+            </h3>
+            <h1>
+                Naghmeh Kanan
+            </h1>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam esse provident itaque, rerum temporibus
+                cupiditate neque sequi assumenda, ratione earum excepturi, id vitae quisquam. Ex tempore facere sit
+                corrupti impedit!
+            </p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+            <a href="#" class="btn">Download Portfolio</a>
+        </div>
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-arch' ></i>
+                    <h3>Architect</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-pen'></i>
+                    <h3>Designer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-palette' ></i>
+                    <h3>Painter</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-code-alt' ></i>
+                    <h3>d</h3>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="overlay"></div>
+        </div>
+    </section>
 </body>
+<!--=============== JS ===============-->
 <script src="Assets/JS/app.js"></script>
 
 </html>
