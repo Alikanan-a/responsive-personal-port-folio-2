@@ -560,7 +560,7 @@ section {
 .home .profession-container .overlay {
     position: absolute;
     top: 0;
-    right: 0;
+    right: -9.5rem;
     width: 0;
     height: 0;
     border-top: 500px solid var(--main-color);
@@ -644,4 +644,37 @@ section {
   .about-content p {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
+  }
+  .overlay2{
+    position: absolute;
+    /* left: -9.5rem; */
+    left: 0;
+    top: 990px;
+    border-top: 500px solid var(--main-color-alt);
+    border-right: 500px solid transparent;
+    border-bottom: 500px solid transparent;
+    border-left: 500px solid var(--main-color-alt);
+    z-index: -10000;
+  }
+  .overlay3 {
+    position: absolute;
+    /* left: -9.5rem; */
+    left: 0;
+    top: 1990px;
+    border-top: 500px solid transparent;
+    border-right: 500px solid transparent;
+    border-bottom: 500px solid var(--main-color-alt);
+    border-left: 500px solid var(--main-color-alt);
+    z-index: -10000; 
+  }
+  .overlay4 {
+    position: absolute;
+    /* left: -9.5rem; */
+    right: -9.5rem;
+    top: 2990px;
+    border-top: 500px solid var(--main-color-alt);
+    border-right: 500px solid var(--main-color-alt);
+    border-bottom: 500px solid var(--main-color-alt);
+    border-left: 500px solid transparent;
+    z-index: -10000; 
   }

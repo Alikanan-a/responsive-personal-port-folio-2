@@ -104,7 +104,7 @@ $(function () {
   })
 })
 
-
+ 
 var $window = $(window);
  
 $(window).on('scroll', function() {
