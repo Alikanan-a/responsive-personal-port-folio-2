@@ -11,10 +11,12 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!--=============== bootstrap ===============-->
     <link rel="stylesheet" href="Assets/node_modules/bootstrap/dist/css/bootstrap-reboot.min.css">
+    <!-- link Remix icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <title>Document</title>
 </head>
 
-<body class="purple">
+<body class="blue"> 
     <!--=============== header ===============-->
     <header class="header">
         <a href="#" class="logo">Portfolio</a>
@@ -25,16 +27,17 @@
             <a href="#portfolio">Portfolio</a>
             <a href="#contact">Contact</a>
         </nav>
-        <div class="bx bx-moon" id="darkMode-icon"></div>
+        <!-- THEME Button -->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
     </header>
-      <!--===============COLOR-buttons ===============-->
-      <div class="color-container">
+    <!--===============COLOR-buttons ===============-->
+    <div class="color-container">
         <div class='menu'>
             <input class='toggle' id='menu' type='checkbox'>
             <label class='style' for='menu'>
                 <i class="ri-paint-brush-line"></i>
             </label>
-            <a class='tab'  id="blue">
+            <a class='tab' id="blue">
                 <p></p>
             </a>
             <a class='tab' id="purple">
@@ -67,7 +70,7 @@
                 Hello, I`am
             </h3>
             <h1>
-               ADMIN ADMIN
+                ADMIN ADMIN
             </h1>
             <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam esse provident itaque, rerum temporibus
@@ -80,8 +83,10 @@
                 <a href="#"><i class='bx bxl-instagram'></i></a>
                 <a href="#"><i class='bx bxl-linkedin'></i></a>
             </div>
-            <a href="#" class="btn">Download CV</a>
-            <a href="#" class="btn">Download Portfolio</a>
+            <div class="home__button">
+                <a href="#" class="btn">Download CV</a>
+                <a href="#" class="btn">Download Portfolio</a>
+            </div>
         </div>
         <div class="profession-container">
             <div class="profession-box">
@@ -114,10 +119,10 @@
         <div class="about-img">
             <div class="arrow-triangle right ">
                 <img src="" alt="">
-               
+
             </div>
         </div>
-        <div class="overlay2"></div> 
+        <div class="overlay2"></div>
         <div class="about-content">
             <h2 class="heading">About <span>Me</span></h2>
             <h3>Hi, I'm Here Your Next Project!</h3>
@@ -130,13 +135,13 @@
         </div>
     </section>
     <section class="services" id="services">
-        <div class="overlay3"></div> 
+        <div class="overlay3"></div>
     </section>
     <section class="portfolio" id="portfolio">
-        <div class="overlay4"></div> 
+        <div class="overlay4"></div>
     </section>
     <section class="services" id="services">
-        <div class="overlay5"></div> 
+        <div class="overlay5"></div>
     </section>
 </body>
 <!--=============== JS ===============-->
